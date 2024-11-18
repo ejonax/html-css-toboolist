@@ -35,9 +35,16 @@ main{
 }
 
 /* si usa solo per la seconda versione che usa le liste */
-li{
+
+ul{
   list-style-type: none; 
 }
+
+
+li.todo-title:before {
+  content: "▾";
+}
+
 
 /* start of todo-button styles */
 .todo-button-tag{
