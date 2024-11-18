@@ -8,7 +8,7 @@ body{
     background-color:rgba(238, 236, 236, 0.915);
 }
 
-#nav{
+.logo{
     background-color: white;
     padding: 10px 20px;
 }
@@ -20,6 +20,10 @@ main{
    border-radius: 5px;
    padding: 10px 50px 50px 50px;
    margin-top: 35px;
+}
+
+.nav{
+   margin: 10px 0px;
 }
 
 .hr-class{
