@@ -34,6 +34,11 @@ main{
     margin-top:13px;
 }
 
+/* si usa solo per la seconda versione che usa le liste */
+li{
+  list-style-type: none; 
+}
+
 /* start of todo-button styles */
 .todo-button-tag{
   padding: 5px 10px;
