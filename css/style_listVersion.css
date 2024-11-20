@@ -8,30 +8,45 @@ body{
     background-color:rgba(238, 236, 236, 0.915);
 }
 
+header{
+    background-color: white;
+    padding: 10px 30px ;
+}
+
 .logo{
     background-color: white;
-    padding: 10px 20px;
+    width: 150px;
+    height: 55px;
 }
 
 main{
    background-color: white; 
-   width: 980px;
+   width: 100%;
+   max-width: 980px;
    margin: 0 auto;
-   border-radius: 5px;
-   padding: 10px 50px 50px 50px;
+   border-radius: 8px;
    margin-top: 35px;
 }
 
-.nav{
-   margin: 10px 0px;
+.button-ct{
+    padding-top: 7px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(238, 236, 236, 0.915);
 }
 
-.hr-class{
-    border: 1px solid rgba(238, 236, 236, 0.915);
-    position:relative;
-    left: -50px;
-    width: calc(100% + 100px);
-    margin-top:13px;
+.items-ct{
+ padding-top: 10px;
+ padding-bottom: 14px;
+}
+
+.main-px{
+    padding-left: 40px;
+    padding-right:40px;
+}
+
+ul{
+  list-style-type: none; 
+  padding-left: 7px;
 }
 
 /* start of todo-button styles */
@@ -40,6 +55,7 @@ main{
   border-radius: 4px;
   font-size: 15px;
   border: 1px solid rgb(218, 230, 218);
+  background-color: white;
 }
 /* end of todo-button styles */
 
@@ -55,28 +71,25 @@ main{
   width: 24px;
   text-align: center;
   line-height: 24px;
+  border: 1px solid green;
+  color: green;
 }
-
-.todo-item-text{
-  display: inline-block;
-  margin-left:8px;
-  margin-right: 3px;
-  }
 
 .todo-item-tag{
   color:white;
   padding: 5px 10px;
   border-radius: 30px;
   font-size: 12px;
-  }
-
-.item-tag-blue{
-    background-color: rgb(58, 179, 232);
+  background-color: rgb(58, 179, 232);
   }
 
 .item-tag-violet{
     background-color: rgb(199, 14, 199);
   }
+
+.item-tag-blue {
+    background-color: rgb(58, 179, 232);
+ }
 
 .item-tag-green{
     background-color: rgb(14, 199, 128);
@@ -94,11 +107,6 @@ main{
     background-color: rgb(217, 53, 62);
   }
 
-.item-icon-green{
-    border: 1px solid green;
-    color: green;
-  }
-
 .item-icon-red{
     border: 1px solid rgb(227, 43, 6);
     color: red;
@@ -111,20 +119,11 @@ main{
     margin: 30px 0 0 0;
   }
   
-.todo-title-icon{
-    display: inline-block;
-    height:20px;
-    width: 20px;
-    text-align: center;
-    line-height: 20px;
-  }
   
 .todo-title-text{
     display: inline-block;
-    margin-left:8px;
+    margin-left: 12px;
     margin-right: 3px;
-    font-weight:bolder ;
-    font-size: 20px;
   } 
 
   /* end of todo-title styles */
